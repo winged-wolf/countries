@@ -1,0 +1,21 @@
+.Search {
+  display: flex;
+  margin-left: 50px;
+  flex-grow: 1;
+  background-color: #b6884994;
+  border-radius: 8px;
+  overflow: hidden;
+  padding: 13px 90px 13px 10px;
+  width: 360px;
+}
+.Search input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+@media only screen and (max-width: 600px) {
+  .Search {
+    width: 250px;
+    margin-left: 0;
+  }
+}

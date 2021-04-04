@@ -1,0 +1,40 @@
+.sort {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.name button,
+.poulation button {
+  border: none;
+  margin-left: 20px;
+  color: var(--text-color-secondary);
+  padding: 2vw;
+  margin-top: 10px;
+  outline: none;
+  cursor: pointer;
+}
+.poulation button:hover {
+  color: rgb(48, 47, 47);
+}
+.name button:hover {
+  color: rgb(48, 47, 47);
+}
+.poulation {
+  flex-grow: 1;
+  padding-left: 10vw;
+}
+.name {
+  flex-grow: 1;
+}
+@media only screen and (max-width: 600px) {
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
